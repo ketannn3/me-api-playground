@@ -73,7 +73,7 @@ curl "http://localhost:3000/search?q=streamlit"
 
 ## 🔗 Links
 - **Resume:** (add your public resume link here)
-- **GitHub:** https://github.com/jhaaj08
+- **GitHub:** https://github.com/ketannn3
 
 ---
 
