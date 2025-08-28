@@ -1,0 +1,151 @@
+{
+  "profile": {
+    "name": "Ketan Mathur",
+    "email": "mathurketan3@gmail.com",
+    "education": "B.Tech (IT), Manipal University Jaipur — 2022–2026",
+    "links": {
+      "github": "https://github.com/ketannn3",
+      "linkedin": "https://linkedin.com/in/ketan-mathur-3585142aa",
+      "portfolio": ""
+    }
+  },
+
+  "skills": [
+    {
+      "name": "C++",
+      "score": 5
+    },
+    {
+      "name": "Python",
+      "score": 5
+    },
+    {
+      "name": "Machine Learning",
+      "score": 4
+    },
+    {
+      "name": "RAG",
+      "score": 4
+    },
+    {
+      "name": "Streamlit",
+      "score": 4
+    },
+    {
+      "name": "Docker",
+      "score": 3
+    },
+    {
+      "name": "SQL",
+      "score": 3
+    },
+    {
+      "name": "Power BI",
+      "score": 2
+    },
+    {
+      "name": "TensorFlow",
+      "score": 3
+    },
+    {
+      "name": "PyTorch",
+      "score": 2
+    },
+    {
+      "name": "JavaScript",
+      "score": 2
+    },
+    {
+      "name": "Express.js",
+      "score": 2
+    }
+  ],
+  "work": [
+    {
+      "company": "Stellar Informatics Pvt Ltd, Noida",
+      "role": "Java Trainee Intern",
+      "start_date": "2024-05-01",
+      "end_date": "2024-07-31",
+      "description": "Spring Boot + Angular basics, OTP 2FA backend verification, code reviews, performance optimizations."
+    },
+    {
+      "company": "Celebal Technologies (Jaipur)",
+      "role": "Data Science Intern",
+      "start_date": "2025-05-15",
+      "end_date": "2025-07-15",
+      "description": "Built ML apps including RAG chatbot and diabetes predictor; deployed small web apps and Dockerized pipelines."
+    },
+    {
+      "company": "Cognifyz Technologies",
+      "role": "Data Science Intern (Remote)",
+      "start_date": "2025-05-01",
+      "end_date": "2025-06-30",
+      "description": "Task-based internship; delivered data tasks and received certificate (July 2025)."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Loan Approval RAG Chatbot",
+      "description": "RAG Q&A chatbot over loan policy documents; TF-IDF+cosine baseline; Streamlit UI; deployed to Streamlit Cloud. Dockerized offline pipeline for hackathon constraints.",
+      "skills": [
+        "Python",
+        "RAG",
+        "NLP",
+        "TF-IDF",
+        "Cosine Similarity",
+        "Streamlit",
+        "Docker"
+      ],
+      "links": {
+        "github": "https://github.com/ketannn3/loan-rag-chatbot",
+        "live": "https://loan-rag-chatbot-lbu8sq5ichdeypjdsmky6u.streamlit.app/"
+      }
+    },
+    {
+      "title": "Diabetes Predictor Web App",
+      "description": "Streamlit app using scikit-learn on PIMA dataset; simple feature inputs and probability output; deployed to Streamlit Cloud.",
+      "skills": [
+        "Python",
+        "scikit-learn",
+        "Streamlit",
+        "Pandas"
+      ],
+      "links": {
+        "github": "https://github.com/ketannn3/diabetes-predictor",
+        "live": "https://diabetes-predictor-uqhnfja96qnpqcxpjuepyn.streamlit.app/"
+      }
+    },
+    {
+      "title": "PDF Outline Extractor (Adobe Hackathon 2025)",
+      "description": "Colab + local Docker pipeline to parse PDFs with PyMuPDF/pdfplumber; extracted hierarchical H1\u2013H3 headings and generated JSON output.",
+      "skills": [
+        "Python",
+        "PyMuPDF",
+        "pdfplumber",
+        "Docker",
+        "JSON"
+      ],
+      "links": {
+        "github": "https://github.com/ketannn3/adobe-hackathon-2025-round1a",
+        "live": ""
+      }
+    },
+    
+    {
+      "title": "Crop Yield Prediction (SICKLE)",
+      "description": "Compared U-Net, DeepLabV3, EfficientNet, and a custom CNN; combined image + tabular data; academic project with paper-style report.",
+      "skills": [
+        "TensorFlow",
+        "PyTorch",
+        "Deep Learning",
+        "Computer Vision",
+        "U-Net",
+        "EfficientNet"
+      ],
+      "links": {
+        "github": "https://github.com/ketannn3/crop-yield-prediction-ml",
+        "live": ""
+      }
+    }
+  ]
+}

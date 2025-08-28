@@ -1,0 +1,74 @@
+{
+  "info": {
+    "name": "Me-API Playground",
+    "_postman_id": "me-api-2025-08-28T19:34:26.052729",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/health"
+      }
+    },
+    {
+      "name": "Get Profile",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/profile"
+      }
+    },
+    {
+      "name": "Update Profile",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{base}}/profile",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"profile\": {\n    \"name\": \"Ketan Mathur\",\n    \"email\": \"ketan.mathur@example.com\",\n    \"education\": \"B.Tech (IT), Manipal University Jaipur \\u2014 2022\\u20132026\",\n    \"links\": {\n      \"github\": \"https://github.com/jhaaj08\",\n      \"linkedin\": \"\",\n      \"portfolio\": \"\"\n    }\n  },\n  \"skills\": [\n    {\n      \"name\": \"C++\",\n      \"score\": 5\n    },\n    {\n      \"name\": \"Python\",\n      \"score\": 5\n    },\n    {\n      \"name\": \"Machine Learning\",\n      \"score\": 4\n    },\n    {\n      \"name\": \"RAG\",\n      \"score\": 4\n    },\n    {\n      \"name\": \"Streamlit\",\n      \"score\": 4\n    },\n    {\n      \"name\": \"Docker\",\n      \"score\": 3\n    },\n    {\n      \"name\": \"SQL\",\n      \"score\": 3\n    },\n    {\n      \"name\": \"Power BI\",\n      \"score\": 2\n    },\n    {\n      \"name\": \"TensorFlow\",\n      \"score\": 3\n    },\n    {\n      \"name\": \"PyTorch\",\n      \"score\": 2\n    },\n    {\n      \"name\": \"JavaScript\",\n      \"score\": 2\n    },\n    {\n      \"name\": \"Express.js\",\n      \"score\": 2\n    }\n  ],\n  \"work\": [\n    {\n      \"company\": \"Stellar Informatics Pvt Ltd, Noida\",\n      \"role\": \"Java Trainee Intern\",\n      \"start_date\": \"2024-05-01\",\n      \"end_date\": \"2024-07-31\",\n      \"description\": \"Spring Boot + Angular basics, OTP 2FA backend verification, code reviews, performance optimizations.\"\n    },\n    {\n      \"company\": \"Celebal Technologies (Jaipur)\",\n      \"role\": \"Data Science Intern\",\n      \"start_date\": \"2025-05-15\",\n      \"end_date\": \"2025-07-15\",\n      \"description\": \"Built ML apps including RAG chatbot and diabetes predictor; deployed small web apps and Dockerized pipelines.\"\n    },\n    {\n      \"company\": \"Cognifyz Technologies\",\n      \"role\": \"Data Science Intern (Remote)\",\n      \"start_date\": \"2025-05-01\",\n      \"end_date\": \"2025-06-30\",\n      \"description\": \"Task-based internship; delivered data tasks and received certificate (July 2025).\"\n    }\n  ],\n  \"projects\": [\n    {\n      \"title\": \"Loan Approval RAG Chatbot\",\n      \"description\": \"RAG Q&A chatbot over loan policy documents; TF-IDF+cosine baseline; Streamlit UI; deployed to Streamlit Cloud. Dockerized offline pipeline for hackathon constraints.\",\n      \"skills\": [\n        \"Python\",\n        \"RAG\",\n        \"NLP\",\n        \"TF-IDF\",\n        \"Cosine Similarity\",\n        \"Streamlit\",\n        \"Docker\"\n      ],\n      \"links\": {\n        \"github\": \"\",\n        \"live\": \"\"\n      }\n    },\n    {\n      \"title\": \"Diabetes Predictor Web App\",\n      \"description\": \"Streamlit app using scikit-learn on PIMA dataset; simple feature inputs and probability output; deployed to Streamlit Cloud.\",\n      \"skills\": [\n        \"Python\",\n        \"scikit-learn\",\n        \"Streamlit\",\n        \"Pandas\"\n      ],\n      \"links\": {\n        \"github\": \"\",\n        \"live\": \"\"\n      }\n    },\n    {\n      \"title\": \"PDF Outline Extractor (Adobe Hackathon 2025)\",\n      \"description\": \"Colab + local Docker pipeline to parse PDFs with PyMuPDF/pdfplumber; extracted hierarchical H1\\u2013H3 headings and generated JSON output.\",\n      \"skills\": [\n        \"Python\",\n        \"PyMuPDF\",\n        \"pdfplumber\",\n        \"Docker\",\n        \"JSON\"\n      ],\n      \"links\": {\n        \"github\": \"https://github.com/jhaaj08/Adobe-India-Hackathon25\",\n        \"live\": \"\"\n      }\n    },\n    {\n      \"title\": \"Persona-Driven Document Intelligence (Adobe Hackathon 2025)\",\n      \"description\": \"Indexed multi-PDF collections and ranked persona-relevant sections using TF-IDF + cosine; produced structured JSON output within CPU-only offline constraints.\",\n      \"skills\": [\n        \"Python\",\n        \"TF-IDF\",\n        \"Cosine Similarity\",\n        \"NLP\",\n        \"Docker\",\n        \"JSON\"\n      ],\n      \"links\": {\n        \"github\": \"https://github.com/jhaaj08/Adobe-India-Hackathon25\",\n        \"live\": \"\"\n      }\n    },\n    {\n      \"title\": \"Crop Yield Prediction (SICKLE)\",\n      \"description\": \"Compared U-Net, DeepLabV3, EfficientNet, and a custom CNN; combined image + tabular data; academic project with paper-style report.\",\n      \"skills\": [\n        \"TensorFlow\",\n        \"PyTorch\",\n        \"Deep Learning\",\n        \"Computer Vision\",\n        \"U-Net\",\n        \"EfficientNet\"\n      ],\n      \"links\": {\n        \"github\": \"\",\n        \"live\": \"\"\n      }\n    }\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "List Projects",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/projects"
+      }
+    },
+    {
+      "name": "List Projects by Skill",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/projects?skill=python"
+      }
+    },
+    {
+      "name": "Top Skills",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/skills/top"
+      }
+    },
+    {
+      "name": "Search",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/search?q=streamlit"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base",
+      "value": "http://localhost:3000"
+    }
+  ]
+}
