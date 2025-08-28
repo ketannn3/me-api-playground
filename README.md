@@ -74,7 +74,7 @@ curl "http://localhost:3000/search?q=streamlit"
 ## 🔗 Links
 **Live URL:** https://me-api-playground-1.onrender.com  
 **Public Repo:** https://github.com/ketannn3/me-api-playground  
-**Resume:** <your public resume link>
+**Resume:** https://drive.google.com/file/d/11RtoJyvnAhSPAucLifn42ZyBaaAZly-M/view?usp=drivesdk
 
 
 ---
