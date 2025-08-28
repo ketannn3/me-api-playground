@@ -72,8 +72,10 @@ curl "http://localhost:3000/search?q=streamlit"
 - **Known limitations:** SQLite file is ephemeral on some hosts (on Render it resets on redeploy). For this demo, seed runs automatically to repopulate.
 
 ## 🔗 Links
-- **Resume:** (add your public resume link here)
-- **GitHub:** https://github.com/ketannn3
+**Live URL:** https://me-api-playground-1.onrender.com  
+**Public Repo:** https://github.com/ketannn3/me-api-playground  
+**Resume:** <your public resume link>
+
 
 ---
 
